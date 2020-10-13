@@ -1,0 +1,32 @@
+.Game-wrapper {
+    display: flex;
+    flex-direction: row;
+    border-top-style: solid;
+    border-color: lightgrey;
+}
+
+.Table-wrapper {
+    flex: 2;
+    padding: 5px 10px;
+    display: inline-block;
+    border-right-style: solid;
+    border-color: lightgrey;
+}
+
+.Status-wrapper {
+    flex: 1;
+}
+
+.Congrats-wrapper {
+    position: fixed;
+    margin: auto;
+    background-color: lightblue;
+    width: 50%;
+    height: 40%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    border-radius: 10px;
+}

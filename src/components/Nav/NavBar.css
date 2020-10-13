@@ -1,0 +1,35 @@
+.NavBar {
+    text-align: center;
+    line-height: 60px;
+    background: rgb(43, 70, 86);
+    background: linear-gradient(
+        180deg,
+        rgba(43, 70, 86, 1) 0%,
+        rgba(40, 115, 142, 1) 100%
+    );
+    color: white;
+    cursor: pointer;
+}
+
+.Pages-wrapper {
+    display: grid;
+    grid-auto-flow: column;
+    width: 350px;
+    margin-left: 6px;
+}
+.Pages-wrapper h3 {
+    margin: 0 0 0 25px;
+    cursor: default;
+    text-align: start;
+}
+.Page-item {
+    background-color: white;
+    color: black;
+    border-radius: 5px 5px 0 0;
+    margin: 5px 6px 0 0;
+}
+
+.active {
+    background-color: #1a82b4;
+    color: white;
+}

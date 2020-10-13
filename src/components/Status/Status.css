@@ -1,0 +1,11 @@
+.statusPlayer {
+    font-size: 15px;
+    line-height: 10px;
+    padding: 5px;
+    border-bottom-style: solid;
+    border-color: lightgrey;
+}
+
+.statusCards {
+    margin: 10px;
+}
